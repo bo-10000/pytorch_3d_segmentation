@@ -1,6 +1,6 @@
 # PyTorch_Segmentation
 
-PyTorch implementation of Image segmentation models
+PyTorch implementation of Deep learning models for Image segmentation
 </br></br>
 
 ## VoxResNet
