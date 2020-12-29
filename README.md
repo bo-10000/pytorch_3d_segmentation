@@ -1,4 +1,4 @@
-# segmentation_pytorch
+# PyTorch_Segmentation
 
 PyTorch implementation of neural networks for image segmentation
 </br></br>
