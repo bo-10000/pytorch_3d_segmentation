@@ -1,6 +1,6 @@
 # PyTorch_Segmentation
 
-PyTorch implementation of neural networks for image segmentation
+PyTorch implementation of Image segmentation models
 </br></br>
 
 ## VoxResNet
