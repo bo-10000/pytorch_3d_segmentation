@@ -58,6 +58,9 @@ class AttentionGate(nn.Module):
     
     
 class AttentionUNet(nn.Module):
+    """
+    Main model
+    """
     def __init__(self, in_channel, num_class, filters=[64, 128, 256, 512]):
         super(AttentionUNet, self).__init__()
         
