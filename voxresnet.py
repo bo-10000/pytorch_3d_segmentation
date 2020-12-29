@@ -2,8 +2,10 @@ import torch
 import torch.nn as nn
 
 
-#VoxRes Module
 class VoxRes(nn.Module):
+    """
+    VoxRes module
+    """
     def __init__(self, in_channel):
         super(VoxRes, self).__init__()
         self.block = nn.Sequential(
@@ -18,6 +20,9 @@ class VoxRes(nn.Module):
     
     
 class VoxResNet(nn.Module):
+    """
+    Main model
+    """
     def __init__(self, in_channels, num_class):
         super(VoxResNet, self).__init__()
         
