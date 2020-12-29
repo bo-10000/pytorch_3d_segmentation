@@ -5,6 +5,8 @@ PyTorch implementation of neural networks for image segmentation
 
 ## VoxResNet
 
+segmentation 3D
+
 https://arxiv.org/pdf/1608.05895.pdf
 
 ![](/image/voxresnet.png)
@@ -13,6 +15,8 @@ https://arxiv.org/pdf/1608.05895.pdf
 
 
 ## Attention U-Net
+
+segmentation 3D
 
 https://arxiv.org/pdf/1804.03999.pdf
 
