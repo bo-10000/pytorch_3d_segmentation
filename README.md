@@ -1,4 +1,4 @@
-# PyTorch_Segmentation
+# PyTorch_3d_Segmentation
 
 PyTorch implementation of Deep learning models for Image segmentation
 </br></br>
