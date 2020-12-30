@@ -29,6 +29,6 @@ https://arxiv.org/pdf/1804.03999.pdf
 
 segmentation 3D
 
-https://arxiv.org/pdf/1606.04797
+https://arxiv.org/pdf/1606.04797.pdf
 
 ![](/image/vnet.png)
