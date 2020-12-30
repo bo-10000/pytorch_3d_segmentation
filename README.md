@@ -5,7 +5,7 @@ PyTorch implementation of Deep learning models for Image segmentation
 
 ## VoxResNet
 
-segmentation 3D
+Applied residual learning. It consists of stacked residual modules(b) and used 4 auxiliary classifiers
 
 https://arxiv.org/pdf/1608.05895.pdf
 
@@ -16,7 +16,7 @@ https://arxiv.org/pdf/1608.05895.pdf
 
 ## Attention U-Net
 
-segmentation 3D
+Used Attention Gate, which suppress irrelevant regions in an input image while highlighting salient features useful for a specific task.
 
 https://arxiv.org/pdf/1804.03999.pdf
 
@@ -27,7 +27,7 @@ https://arxiv.org/pdf/1804.03999.pdf
 
 ## V-Net
 
-segmentation 3D
+Similar to U-Net structure. Applied residual connection at each stage and used PReLU for activation function.
 
 https://arxiv.org/pdf/1606.04797.pdf
 
