@@ -5,7 +5,7 @@ PyTorch implementation of Deep learning models for Image segmentation
 
 ## VoxResNet
 
-Applied residual learning. It consists of stacked residual modules(b) and used 4 auxiliary classifiers
+Applied residual learning. Consists of stacked residual modules(b) and used 4 auxiliary classifiers.
 
 https://arxiv.org/pdf/1608.05895.pdf
 
