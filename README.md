@@ -21,3 +21,14 @@ segmentation 3D
 https://arxiv.org/pdf/1804.03999.pdf
 
 ![](/image/attention_unet.JPG)
+
+</br></br>
+
+
+## V-Net
+
+segmentation 3D
+
+https://arxiv.org/pdf/1606.04797
+
+![](/image/vnet.png)
