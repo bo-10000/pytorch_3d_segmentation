@@ -49,7 +49,7 @@ class Up(nn.Module):
         
     def forward(self, x, down):
         x = self.upconv(x)
-        cat = torch.cat((x, down), dim=1)
+        cat = torch.cat([x, down], dim=1)
         return cat + self.conv(cat)
     
 
