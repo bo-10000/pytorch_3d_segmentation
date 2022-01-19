@@ -66,24 +66,21 @@ class AttentionUNet(nn.Module):
         
         f1, f2, f3, f4 = filters
         
-        self.down1 = nn.Sequential(
-            ConvBlock(in_channel, f1),
-            nn.MaxPool3d(kernel_size=(2, 2, 2))
-        )
+        self.down1 = ConvBlock(in_channel, f1)
         
         self.down2 = nn.Sequential(
-            ConvBlock(f1, f2),
-            nn.MaxPool3d(kernel_size=(2, 2, 2))
+            nn.MaxPool3d(kernel_size=(2, 2, 2)),
+            ConvBlock(f1, f2)
         )
         
         self.down3 = nn.Sequential(
-            ConvBlock(f2, f3),
-            nn.MaxPool3d(kernel_size=(2, 2, 2))
+            nn.MaxPool3d(kernel_size=(2, 2, 2)),
+            ConvBlock(f2, f3)
         )
         
         self.down4 = nn.Sequential(
-            ConvBlock(f3, f4),
-            nn.MaxPool3d(kernel_size=(2, 2, 2))
+            nn.MaxPool3d(kernel_size=(2, 2, 2)),
+            ConvBlock(f3, f4)
         )
 
         self.ag1 = AttentionGate(f3, f4, f3)
