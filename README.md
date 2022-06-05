@@ -1,6 +1,8 @@
 # PyTorch_3d_Segmentation
 
 PyTorch implementation of 3D segmentation models
+
+Summary (KOR): https://bo-10000.tistory.com/39?category=1054227
 </br></br>
 
 ## VoxResNet
